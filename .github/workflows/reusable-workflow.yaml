@@ -8,7 +8,7 @@ on:
 
 jobs:
   nested-workflow-call:
-    uses: Deb-Portfolio/workflows/.github/workflows/reusable-workflow.yaml@main
+    uses: Deb-Portfolio/reusable_workflow/.github/workflows/reusable-workflow.yaml@main
     with:
       name: "Debanjan"
     secrets:
